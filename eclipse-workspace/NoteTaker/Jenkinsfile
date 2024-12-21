@@ -13,7 +13,7 @@ pipeline {
 
         stage("Checkout from SCM"){
                 steps {
-                    git branch: 'main', credentialsId: 'github', url: 'https://github.com/Ashfaque-9x/register-app'
+                    git branch: 'main', credentialsId: 'github', url: 'https://github.com/abhishek5254/NoteTaker/tree/9b63a3878f06d6a640dedb4513779e3d81f5c61f/eclipse-workspace/NoteTaker'
                 }
         }
     stage("Build Application"){
